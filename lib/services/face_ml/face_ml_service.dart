@@ -1,4 +1,3 @@
-import 'dart:developer' show log;
 import 'dart:typed_data' show Uint8List;
 
 import 'package:flutterface/services/face_ml/face_detection/detection.dart';
@@ -6,7 +5,6 @@ import 'package:flutterface/services/face_ml/face_detection/yolov5face/yolo_face
 import 'package:flutterface/services/face_ml/face_detection/yolov5face/yolo_face_detection_onnx.dart';
 import 'package:flutterface/services/face_ml/face_embedding/face_embedding_exceptions.dart';
 import 'package:flutterface/services/face_ml/face_embedding/face_embedding_onnx.dart';
-import 'package:flutterface/services/face_ml/face_embedding/face_embedding_service.dart';
 import 'package:flutterface/services/face_ml/face_ml_exceptions.dart';
 import 'package:flutterface/utils/image_ml_isolate.dart';
 import 'package:logging/logging.dart';
