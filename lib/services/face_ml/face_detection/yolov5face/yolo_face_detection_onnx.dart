@@ -34,7 +34,7 @@ class YoloOnnxFaceDetection {
   ///
   /// config options: yoloV5FaceN //
   static final instance = YoloOnnxFaceDetection._privateConstructor(
-    config: yoloV5FaceS640x640DynamicBatchonnx,
+    config: yoloV5FaceN05640x640DynamicBatchonnx,
   );
   factory YoloOnnxFaceDetection() {
     OrtEnv.instance.init();

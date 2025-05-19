@@ -21,4 +21,8 @@ mixin ModelFile {
       'assets/models/yolov5n_face_640_640.onnx';
   static const String yoloV5FaceS640x640DynamicBatchonnx =
       'assets/models/yolov5s_face_640_640_dynamic.onnx';
+  static const String yoloV5FaceN640x640DynamicBatchonnx =
+      'assets/models/yolov5n_face_640_640_dynamic.onnx';
+  static const String yoloV5FaceN05640x640DynamicBatchonnx =
+      'assets/models/yolov5n_05_face_640_640_dynamic.onnx';
 }

@@ -51,6 +51,25 @@ final YOLOModelConfig yoloV5FaceS640x640DynamicBatchonnx = YOLOModelConfig(
   ),
 );
 
+final YOLOModelConfig yoloV5FaceN640x640DynamicBatchonnx = YOLOModelConfig(
+  modelPath: ModelFile.yoloV5FaceN640x640DynamicBatchonnx,
+  faceOptions: FaceDetectionOptionsYOLO(
+    minScoreSigmoidThreshold: 0.6,
+    iouThreshold: 0.4,
+    inputWidth: 640,
+    inputHeight: 640,
+  ),
+);
+final YOLOModelConfig yoloV5FaceN05640x640DynamicBatchonnx = YOLOModelConfig(
+  modelPath: ModelFile.yoloV5FaceN05640x640DynamicBatchonnx,
+  faceOptions: FaceDetectionOptionsYOLO(
+    minScoreSigmoidThreshold: 0.6,
+    iouThreshold: 0.4,
+    inputWidth: 640,
+    inputHeight: 640,
+  ),
+);
+
 final YOLOModelConfig yoloV5FaceN640x640onnx = YOLOModelConfig(
   modelPath: ModelFile.yoloV5FaceN640x640onnx,
   faceOptions: FaceDetectionOptionsYOLO(
