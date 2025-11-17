@@ -31,6 +31,7 @@ enum ImageOperation {
 /// It can be accessed through the singleton `ImageConversionIsolate.instance`. e.g. `ImageConversionIsolate.instance.convert(imageData)`
 ///
 /// IMPORTANT: Make sure to dispose of the isolate when you're done with it with `dispose()`, e.g. `ImageConversionIsolate.instance.dispose();`
+@pragma('vm:entry-point')
 class ImageMlIsolate {
   // static const String debugName = 'ImageMlIsolate';
 

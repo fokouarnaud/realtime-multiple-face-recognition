@@ -393,9 +393,9 @@ class BoxSelectionPage extends StatelessWidget {
         nameController.dispose();
         descController.dispose();
       }
+    } else {
+      nameController.dispose();
+      descController.dispose();
     }
-
-    nameController.dispose();
-    descController.dispose();
   }
 }
